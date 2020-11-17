@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let count = 0;
+    let total = 0;
+    let i=0;
+    let str = "";
+    while (count < 30) {
+            if(i%7==0){
+                str +="+" + i;
+                i=i+7;
+                count++;
+        }
+    }
+    document.write(eval(str));
+</script>
+</body>
+</html>
